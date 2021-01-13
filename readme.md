@@ -10,7 +10,7 @@ This project contains:
 **\*\*\*The calculations presented within this spreadsheet are estimates only and not intended to be used to provide any financial advice. I am not liable for the accuracy of the calculations. This project is intended only for entertainment, educational and informational purposes.**  
 
 ### Values Updated  
-|Ethereum Network Stats|HiveOS Stats|
+|Ethereum Network Stats|HiveOS Farm Stats|
 | :------------------: | :--------: |
 |ETH Price USD|ETH Price USD|
 Network Rate|Network Rate|
