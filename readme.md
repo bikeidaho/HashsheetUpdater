@@ -12,11 +12,11 @@ This project contains:
 ### Values Updated  
 |Ethereum Network Stats|HiveOS Farm Stats|
 | :------------------: | :--------: |
-|ETH Price USD|ETH Price USD|
-Network Rate|Network Rate|
-Block Time|Block Time|
-Block Reward|Block Reward|
-Blocks 1D|Blocks 1D|
+|ETH Price USD|Rig Hash Rate|
+Network Rate|Rig Power Watts|
+Block Time|Power Cost KW/H|
+Block Reward|Mining Probability|
+Blocks 1D|Est Blocks per Month|
 
 ## Configuration and setup
    1. Prep Google
