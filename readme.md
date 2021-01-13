@@ -11,6 +11,7 @@ This project contains:
 
 ### Values Updated  
 |Ethereum Network Stats|HiveOS Stats|
+| :------------------: | :--------: |
 |ETH Price USD|ETH Price USD|
 Network Rate|Network Rate|
 Block Time|Block Time|
