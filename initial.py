@@ -30,7 +30,7 @@ try:
     sheet_instance.update('A7', 'Block Time')
     sheet_instance.update('A8', 'Block Reward')
     sheet_instance.update('A9', 'Blocks 1D')
-    sheet_instance.update('B9', '\=SUM(86400*B7)')
+    sheet_instance.update('B9', '\=SUM(86400/B7)')
     sheet_instance.update('D4', 'Rig Stats for')
     sheet_instance.update('E4', 'rig_name')
     sheet_instance.update('D5', 'Rig Hash Rate')
