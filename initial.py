@@ -14,6 +14,7 @@ client = gspread.authorize(creds)
 spreadsheetname = config.google_config['sheetname']
 sheet = client.open(spreadsheetname)
 sheet_instance = sheet.get_worksheet(0)
+history_sheet = sheet.get_worksheet(1)
 
 
 try:
@@ -64,6 +65,34 @@ try:
     sheet_instance.update('J7' , '\=SUM(H7*365)')
     sheet_instance.update('J8' , '\=SUM(H8*365)')
     sheet_instance.update('J9' , '\=SUM(H9*365)')
+
+    #Populate Initial History Table
+    history_sheet.update('A1', 'current_time')
+    history_sheet.update('B1', 'current_eth_usd')
+    history_sheet.update('C1', 'current_eth_rate')
+    history_sheet.update('D1', 'current_eth_blocktime')
+    history_sheet.update('E1', 'current_eth_blockreward')
+    history_sheet.update('F1', 'eth_network_block1d')
+    history_sheet.update('G1', 'rig_name')
+    history_sheet.update('H1', 'reported_rig_hashrate')
+    history_sheet.update('I1', 'power_draw')
+    history_sheet.update('J1', 'power_cost')
+    history_sheet.update('K1', 'rig_prob')
+    history_sheet.update('L1', 'rig_blocks_30d')
+    history_sheet.update('M1', 'psu_eff')
+    history_sheet.update('N1', 'pool_fee')
+    history_sheet.update('O1', '24h_rev')
+    history_sheet.update('P1', '24h_fee')
+    history_sheet.update('Q1', '24h_cost')
+    history_sheet.update('R1', '24h_profit')
+    history_sheet.update('S1', '30d_rev')
+    history_sheet.update('T1', '30d_fee')
+    history_sheet.update('U1', '30d_cost')
+    history_sheet.update('V1', '30d_profit')
+    history_sheet.update('W1', '1y_rev')
+    history_sheet.update('X1', '1y_fee')
+    history_sheet.update('Y1', '1y_cost')
+    history_sheet.update('Z1', '1y_profit')
 
     #Print Success Message
     print("The initial spreadsheet has been created successfully")
