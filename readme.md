@@ -21,7 +21,7 @@ Blocks 1D|Est Blocks per Month|
 ## Configuration and setup
    1. Prep Google
    1. Install OS specific dependencies
-   1. Install Hashsheetupdater    
+   1. Install HashsheetUpdater    
 
 ### Google Preparation
 #### Create service account and enable permissions  
