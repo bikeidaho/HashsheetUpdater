@@ -1,6 +1,6 @@
 # Overview
 ## HashsheetUpdater
-This Python project contains scripts to retrieve current Ethereum network statistic values as well as current farm statistic values from HiveOS and records them into a google spreadsheet.
+This Python project contains scripts to retrieve current Ethereum network statistic values as well as current farm statistic values from HiveOS and records them into a google spreadsheet. It also records each of these values on a secondary sheet for historical purposes.
 
 This project contains:  
    1. A Python script to initially populate the spreadsheet with labels and formulas in order to view and estimate your point in time rigs revenue, cost and profit over 24 Hours, 30 Days and 1 Year periods.
@@ -38,7 +38,8 @@ Blocks 1D|Est Blocks per Month|
 This will automatically download a JSON file with credentials including the service account email address which you will use to 'share' with later in this setup. This file will also need to be copied into your project directory!
 
 #### Create initial spreadsheet and prep  
-   1. Log into google and create new blank spreadsheet. The name of this spreadsheet will need to be enter later in the config.py file.
+   1. Log into google and create new blank spreadsheet. Also, create a second tabbed blank sheet for the historically stored values (at the bottom of the main sheet).
+   The name of this spreadsheet will need to be enter later in the config.py file.
    1. Share spreadsheet with service account created in the above step. Make sure this account has editor permissions.
 
 ### Windows Preparation
