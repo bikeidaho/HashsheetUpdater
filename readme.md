@@ -60,7 +60,7 @@ This will automatically download a JSON file with credentials including the serv
    `mkdir $project_dir`  
    `cd $project_dir`  
    1. Pull most recent version of project from Github.  
-   `git pull $url_project`  
+   `git repo clone bikeidaho/HashsheetUpdater`  
    1. Copy initial config file.  
    `cp config-sample.py config.py`  
    1. Edit and populate config.py using your favorite text or code editor. (I personally use VSCode on Windows.)  
@@ -109,14 +109,14 @@ At this point you can customize the spreadsheet to your liking.
 
 ### Ubuntu 20.04 Preparation  
    1.  Install Python and Git via terminal  
-   `sudo apt-get install python -y && apt-get install git -y`
+   `sudo apt-get install python3 -y && apt-get install git -y`
 
 #### Install HashsheetUpdater project
    1. In a terminal, make a new directory for project and change into it.  
    `mkdir $project_dir`  
    `cd $project_dir`  
    1. Pull most recent version of project from Github.  
-   `git pull $url_project`  
+   `git repo clone bikeidaho/HashsheetUpdater`  
    1. Copy initial config file.  
    `cp config-sample.py config.py`  
    1. Edit and populate config.py using your favorite text or code editor. (I personally use Vim on Linux.)  
