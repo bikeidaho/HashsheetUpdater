@@ -61,6 +61,10 @@ This will automatically download a JSON file with credentials including the serv
    `cd $project_dir`  
    1. Pull most recent version of project from Github.  
    `git repo clone bikeidaho/HashsheetUpdater`  
+   1. Change into HashsheetUpdater dir
+   `cd HashsheetUpdater
+   1. Install Python Dependencies
+   'pip3 install gspread oauth2client`
    1. Copy initial config file.  
    `cp config-sample.py config.py`  
    1. Edit and populate config.py using your favorite text or code editor. (I personally use VSCode on Windows.)  
