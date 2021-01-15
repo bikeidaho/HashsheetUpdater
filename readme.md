@@ -127,7 +127,7 @@ At this point you can customize the spreadsheet to your liking.
    1. In terminal, navigate into the project directory.
    `cd $path_to_project_directory`
    1. Run the initial python script in order to populate the blank spreadsheet with headers, labels and initial data.  
-   `python .\initial.py`  
+   `python ./initial.py`  
 
 #### Prepping initial spreadsheet
    1. Open the newly created and populated spreadsheet in a web browser.  
@@ -138,7 +138,7 @@ At this point you can customize the spreadsheet to your liking.
 #### Manually run updater to populate initial values
 Navigate back to your PowerShell terminal.  
    1. Run updater script manually.  
-   `python .\updater.py `
+   `python ./updater.py `
 
 #### Tweaking initial spreadsheet - Optional  
 At this point you can customize the spreadsheet to your liking.
